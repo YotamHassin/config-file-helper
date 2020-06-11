@@ -12,10 +12,23 @@ function initConfigObject(configFileName, defaultConfigObject) {
     return configObject;
 }
 exports.initConfigObject = initConfigObject;
+/* ----- flat example ----- */
+/*
+// No complex child, need different Proxy, can be in a different file (linked with new proxy to same object).
+interface ConfigType {
+    configFileName: string;
+    //init: any;
+    //(logName: string): string;
+    someConfigProp: string;
+
+}
+
 // private, Not to be changed, saved as default and backup for file.
-var _configObject = {
+const _configObject: ConfigType = {
     configFileName: "configObject.js",
     //init: undefined,
     someConfigProp: 'some',
 };
-var configObject = initConfigObject(_configObject.configFileName, _configObject);
+
+const configObject: ConfigType = initConfigObject<ConfigType>(_configObject.configFileName, _configObject);
+*/

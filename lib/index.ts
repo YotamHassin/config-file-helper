@@ -16,8 +16,8 @@ export function initConfigObject<ProxyTyp extends object>(configFileName: filesH
 }
 
 
-
-/* ----------------- */
+/* ----- flat example ----- */
+/*
 // No complex child, need different Proxy, can be in a different file (linked with new proxy to same object).
 interface ConfigType {
 	configFileName: string;
@@ -35,3 +35,4 @@ const _configObject: ConfigType = {
 };
 
 const configObject: ConfigType = initConfigObject<ConfigType>(_configObject.configFileName, _configObject);
+*/

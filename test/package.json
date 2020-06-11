@@ -4,7 +4,7 @@
   "description": "",
   "main": "tests.js",
   "dependencies": {
-    "config-file-helper": "0.0.1"
+    "config-file-helper": "0.0.7"
   },
   "devDependencies": {},
   "scripts": {

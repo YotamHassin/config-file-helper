@@ -1,6 +1,6 @@
 {
   "name": "config-file-helper",
-  "version": "0.0.2",
+  "version": "0.0.7",
   "description": "Config File That Helper, Take default object, Save it to the wanted file, and let you Change the file programmatically.",
   "main": "dist/index.js",
   "scripts": {
