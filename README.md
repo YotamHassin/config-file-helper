@@ -1,6 +1,6 @@
 
 # config-file-helper
-Config File That Helper, Take default object, Save it to the wanted file, and let you Change the file programmatically.
+Config File That Helper, **Take** default object, **Save** it to the wanted file, and let you **Change** the file programmatically.
 
 ### [npmjs/config-file-helper](https://www.npmjs.com/package/config-file-helper)
 
