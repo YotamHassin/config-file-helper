@@ -1,0 +1,31 @@
+﻿
+// tests.js - 
+
+
+// https://www.npmjs.com/package/config-file-helper
+
+import * as configHelper from './dist/index';
+
+// No complex child, need different Proxy, can be in a different file (linked with new proxy to same object).
+interface ConfigType {
+	name: string;
+	val: number;
+}
+
+// Not to be changed, saved as default and backup for file.
+const _configObject: ConfigType = {
+	name: "some name",
+	val: 5,
+};
+
+// flat object, working fine.
+const configFileObject: ConfigType = configHelper.initConfigObject<ConfigType>('configObject.js', _configObject);
+
+// not working! complex nested objects
+//const configFileObjectComplex = configHelper.initConfigObject('./configFileObjectComplex.js', { name: 'some name', array: [{ innerName: 'some inner name' }] });
+
+console.log('print configFileObject.name: ', configFileObject.name);
+
+console.log('print configFileObject.val: ', configFileObject.val);
+configFileObject.val+=5;
+console.log('after update print configFileObject.val: ', configFileObject.val);

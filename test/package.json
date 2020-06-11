@@ -1,0 +1,16 @@
+{
+  "name": "config-file-helper-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tests.js",
+  "dependencies": {
+    "config-file-helper": "0.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node tests"
+  },
+  "keywords": [],
+  "author": "Yotam Hassin <YotamHassinWork@gmail.com> (https://www.linkedin.com/in/yotamhassin/)",
+  "license": "ISC"
+}

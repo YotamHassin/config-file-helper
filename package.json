@@ -1,0 +1,41 @@
+{
+  "name": "config-file-helper",
+  "version": "0.0.2",
+  "description": "Config File That Helper, Take default object, Save it to the wanted file, and let you Change the file programmatically.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build",
+    "test_l": "node tests",
+    "test": "node test/tests"
+  },
+  "keywords": [
+    "Helper",
+    "Node",
+    "Node.JS",
+    "NPM",
+    "files",
+    "config",
+    "config file",
+    "fs",
+    "file system"
+  ],
+  "author": "Yotam Hassin <YotamHassinWork@gmail.com> (https://www.linkedin.com/in/yotamhassin/)",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YotamHassin/config-file-helper.git"
+  },
+  "bugs": {
+    "url": "https://github.com/YotamHassin/config-file-helper/issues"
+  },
+  "homepage": "https://github.com/YotamHassin/config-file-helper#readme",
+  "dependencies": {},
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/YotamHassin"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.13"
+  }
+}
